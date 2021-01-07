@@ -1,0 +1,9 @@
+StepsDefinitions\TestRunner.class
+StepsDefinitions\DELETEUserSteps.class
+restApi\PostUserMethod.class
+StepsDefinitions\POSTUserSteps.class
+restApi\GetUsersMethod.class
+restApi\DeleteUserMethod.class
+model\Department.class
+StepsDefinitions\GETUsersSteps.class
+model\User.class

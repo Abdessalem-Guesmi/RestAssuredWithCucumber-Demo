@@ -1,0 +1,374 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-07T21:00:16.012Z",
+        "line": 3,
+        "name": "verify list of users",
+        "description": "",
+        "id": "verify--get-operation-using-rest-assured;verify-list-of-users",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3252000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I perform Get operation for \"/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/users\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepsDefinitions.GETUsersSteps.i_perform_get_operation_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see all users",
+            "match": {
+              "location": "StepsDefinitions.GETUsersSteps.i_should_see_all_users()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-07T21:00:19.386Z",
+        "line": 8,
+        "name": "verify one fname of users",
+        "description": "",
+        "id": "verify--get-operation-using-rest-assured;verify-one-fname-of-users",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I perform Get operation for \"/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/users\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepsDefinitions.GETUsersSteps.i_perform_get_operation_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 990000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I perform Get for the user number \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepsDefinitions.GETUsersSteps.i_perform_get_for_the_user_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see the first name as \"Mohamadov\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mohamadov\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepsDefinitions.GETUsersSteps.i_should_see_the_first_name_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-07T21:00:20.508Z",
+        "line": 14,
+        "name": "verify Query Parameters",
+        "description": "",
+        "id": "verify--get-operation-using-rest-assured;verify-query-parameters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I perform Get operation for \"/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/users\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepsDefinitions.GETUsersSteps.i_perform_get_operation_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see verify GET Query Parameter",
+            "match": {
+              "location": "StepsDefinitions.GETUsersSteps.i_should_see_verify_get_query_parameter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-07T21:00:20.637Z",
+        "line": 19,
+        "name": "verify Path Parameters",
+        "description": "",
+        "id": "verify--get-operation-using-rest-assured;verify-path-parameters",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 413000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I perform Get operation for \"/users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/users\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepsDefinitions.GETUsersSteps.i_perform_get_operation_for(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see verify GET Path Parameter",
+            "match": {
+              "location": "StepsDefinitions.GETUsersSteps.i_should_see_verify_get_path_parameter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify  GET operation using Rest-Assured",
+    "description": "",
+    "id": "verify--get-operation-using-rest-assured",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/AGETUser.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-07T21:00:21.140Z",
+        "line": 4,
+        "name": "verify POST operation",
+        "description": "",
+        "id": "post-user;verify-post-operation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 540000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I ensure to Perform POST operatio for \"/users\" with body as",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/users\"",
+                  "offset": 38
+                }
+              ],
+              "location": "StepsDefinitions.POSTUserSteps.i_ensure_to_perform_post_operatio_for_with_body_as(java.lang.String,io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "lname",
+                  "departmentId"
+                ]
+              },
+              {
+                "cells": [
+                  "Rest-Assured",
+                  "Automation",
+                  "2"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the body with fname as \"Rest-Assured\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rest-Assured\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepsDefinitions.POSTUserSteps.i_should_see_the_body_with_fname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "POST User",
+    "description": "  Test POST operation",
+    "id": "post-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/BPOSTUser.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-07T21:00:21.698Z",
+        "line": 4,
+        "name": "verify DELETE operation after POST",
+        "description": "",
+        "id": "delete-user;verify-delete-operation-after-post",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Perform DELETE operation for \"id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"id\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepsDefinitions.DELETEUserSteps.i_perform_delete_operation_for(java.lang.String,io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id"
+                ]
+              },
+              {
+                "cells": [
+                  "3"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I Perform GET operation with path parameter for \"/users/{id}/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/users/{id}/\"",
+                  "offset": 48
+                }
+              ],
+              "location": "StepsDefinitions.DELETEUserSteps.i_perform_get_operation_with_path_parameter_for(java.lang.String,io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id"
+                ]
+              },
+              {
+                "cells": [
+                  "3"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should not see the body with fname as \"Selenium\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Selenium\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepsDefinitions.DELETEUserSteps.i_should_not_see_the_body_with_fname_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete User",
+    "description": "  Test Delete operation",
+    "id": "delete-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/CDELETEUser.feature",
+    "tags": []
+  }
+]
